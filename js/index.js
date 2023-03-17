@@ -36,8 +36,8 @@ companyToggle.addEventListener('click', () => {
     company.classList.toggle('close');
 
     if (company.classList.contains('close')) {
-        document.querySelector('#company-toggle .dropdown-toggle').src = '../images/icon-arrow-down.svg';
+        document.querySelector('#company-toggle .dropdown-toggle').src = 'images/icon-arrow-down.svg';
     } else {
-        document.querySelector('#company-toggle .dropdown-toggle').src = '../images/icon-arrow-up.svg';
+        document.querySelector('#company-toggle .dropdown-toggle').src = 'images/icon-arrow-up.svg';
     }
 });
