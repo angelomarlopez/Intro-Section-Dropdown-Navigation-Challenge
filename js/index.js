@@ -26,9 +26,9 @@ ignoreOpacity.addEventListener('click', () => {
 featuresToggle.addEventListener('click', () => {
     features.classList.toggle('close');
     if (features.classList.contains('close')) {
-        document.querySelector('#features-toggle .dropdown-toggle').src = '../images/icon-arrow-down.svg';
+        document.querySelector('#features-toggle .dropdown-toggle').src = 'images/icon-arrow-down.svg';
     } else {
-        document.querySelector('#features-toggle .dropdown-toggle').src = '../images/icon-arrow-up.svg';
+        document.querySelector('#features-toggle .dropdown-toggle').src = 'images/icon-arrow-up.svg';
     }
 });
 
