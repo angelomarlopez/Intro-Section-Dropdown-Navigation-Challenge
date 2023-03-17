@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <header class="navbar">
+    <img src="images/logo.svg" alt="Logo" />
+
+    <div class="nav-hamburger"></div>
+
+    <div class="nav-container close">
+      <div class="nav-close"></div>
+      <nav class="nav-items">
+        <div>
+          <div id="features-toggle" class="nav-item">
+            <p>Features</p>
+            <img class="dropdown-toggle" src="images/icon-arrow-down.svg" alt="arrow icon"/>
+          </div>
+          <div id="features-dropdown" class="dropdown-side close">
+            <div class="nav-item">
+              <img class="icon" src="images/icon-todo.svg" alt="Todo Icon" />
+              <p>Todo List</p>
+            </div>
+            <div class="nav-item">
+              <img class="icon" src="images/icon-calendar.svg" alt="Calendar Icon" />
+              <p>Calendar</p>
+            </div>
+            <div class="nav-item">
+              <img class="icon" src="images/icon-reminders.svg" alt="Reminder Icon" />
+              <p>Reminders</p>
+            </div>
+            <div class="nav-item">
+              <img class="icon" src="images/icon-planning.svg" alt="Planning Icon" />
+              <p>Planning</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div id="company-toggle" class="nav-item">
+            <p>Company</p>
+            <img class="dropdown-toggle" src="images/icon-arrow-down.svg" alt="arrow icon"/>
+          </div>
+          <div id="company-dropdown" class="dropdown-side close">
+            <div class="nav-item"><p>History</p></div>
+            <div class="nav-item"><p>Our Team</p></div>
+            <div class="nav-item"><p>Blog</p></div>
+          </div>
+        </div>
+        <div>
+          <div class="nav-item"><p>Careers</p></div>
+        </div>
+        <div>
+          <div class="nav-item"><p>About</p></div>
+        </div>
+      </nav>
+
+      <div class="nav-buttons">
+        <button class="btn">Login</button>
+        <button class="btn outline">Register</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <img class="mobile-img" src="images/image-hero-mobile.png" alt="Hero">
+    <div class="main-content">
+      <h1>Make remote work</h1>
+
+      <p>
+        Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.      
+      </p>
+
+      <button class='btn dark'>Learn more</button>
+      <div class="clients">
+        <img src="images/client-databiz.svg" alt="client">
+        <img src="images/client-audiophile.svg" alt="client">
+        <img src="images/client-meet.svg" alt="client">
+        <img src="images/client-maker.svg" alt="client">
+      </div>
+    </div>
+    <img class="desktop-img" src="images/image-hero-desktop.png" alt="Hero">
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Angel Lopez</a>.
+  </footer>
+  <script src="js/index.js"></script>
+</body>
+</html>
